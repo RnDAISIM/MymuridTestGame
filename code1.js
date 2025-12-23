@@ -329,7 +329,7 @@ gdjs.copyArray(runtimeScene.getObjects("InstaneceIncorrect_1"), gdjs.MainGameCod
 gdjs.copyArray(runtimeScene.getObjects("InstaneceIncorrect_2"), gdjs.MainGameCode.GDInstaneceIncorrect_95952Objects1);
 gdjs.copyArray(runtimeScene.getObjects("InstaneceIncorrect_3"), gdjs.MainGameCode.GDInstaneceIncorrect_95953Objects1);
 gdjs.copyArray(runtimeScene.getObjects("Score"), gdjs.MainGameCode.GDScoreObjects1);
-{gdjs.evtTools.sound.playMusic(runtimeScene, "assets\\bgm.mp3", true, 12, 1);
+{gdjs.evtTools.sound.playMusic(runtimeScene, "assets\\bgm.mp3", true, 70, 1);
 }
 {runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(gdjs.evtTools.object.pickedObjectsCount(gdjs.MainGameCode.mapOfGDgdjs_9546MainGameCode_9546GDInstanceCorrect_959595951Objects1ObjectsGDgdjs_9546MainGameCode_9546GDInstaneceIncorrect_959595951Objects1ObjectsGDgdjs_9546MainGameCode_9546GDInstanceCorrect_959595952Objects1ObjectsGDgdjs_9546MainGameCode_9546GDInstaneceIncorrect_959595952Objects1ObjectsGDgdjs_9546MainGameCode_9546GDInstaneceIncorrect_959595953Objects1ObjectsGDgdjs_9546MainGameCode_9546GDInstanceCorrect_959595953Objects1Objects));
 }
