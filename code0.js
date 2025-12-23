@@ -48,7 +48,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "baeeb718f7142aaca06988016a135804da1068bbc739ea8a568f0faf8cfbe938_Two tone effect.aac", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\twotoneeffect.aac", false, 100, 1);
 }
 }
 

@@ -329,7 +329,7 @@ gdjs.copyArray(runtimeScene.getObjects("InstaneceIncorrect_1"), gdjs.MainGameCod
 gdjs.copyArray(runtimeScene.getObjects("InstaneceIncorrect_2"), gdjs.MainGameCode.GDInstaneceIncorrect_95952Objects1);
 gdjs.copyArray(runtimeScene.getObjects("InstaneceIncorrect_3"), gdjs.MainGameCode.GDInstaneceIncorrect_95953Objects1);
 gdjs.copyArray(runtimeScene.getObjects("Score"), gdjs.MainGameCode.GDScoreObjects1);
-{gdjs.evtTools.sound.playMusic(runtimeScene, "assets\\Kids Happy Funny Background Music For Videos.mp3", true, 50, 1);
+{gdjs.evtTools.sound.playMusic(runtimeScene, "assets\\bgm.mp3", true, 12, 1);
 }
 {runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(gdjs.evtTools.object.pickedObjectsCount(gdjs.MainGameCode.mapOfGDgdjs_9546MainGameCode_9546GDInstanceCorrect_959595951Objects1ObjectsGDgdjs_9546MainGameCode_9546GDInstaneceIncorrect_959595951Objects1ObjectsGDgdjs_9546MainGameCode_9546GDInstanceCorrect_959595952Objects1ObjectsGDgdjs_9546MainGameCode_9546GDInstaneceIncorrect_959595952Objects1ObjectsGDgdjs_9546MainGameCode_9546GDInstaneceIncorrect_959595953Objects1ObjectsGDgdjs_9546MainGameCode_9546GDInstanceCorrect_959595953Objects1Objects));
 }
@@ -581,7 +581,7 @@ for(var i = 0, len = gdjs.MainGameCode.GDInstanceCorrect_95953Objects1.length ;i
     gdjs.MainGameCode.GDInstanceCorrect_95953Objects1[i].setZOrder(10000);
 }
 }
-{gdjs.evtTools.sound.playSound(runtimeScene, "d32cb297988f21b74f7f893fff28430f0198b3c1f8a6c0622520e9158b284d3f_jump.aac", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\jump.aac", false, 100, 1);
 }
 
 { //Subevents
@@ -663,7 +663,7 @@ for(var i = 0, len = gdjs.MainGameCode.GDInstanceCorrect_95953Objects1.length ;i
     gdjs.MainGameCode.GDInstanceCorrect_95953Objects1[i].deleteFromScene(runtimeScene);
 }
 }
-{gdjs.evtTools.sound.playSound(runtimeScene, "95aef1c1a58062c7bcb3d61bdaa14c87a5032d3332ec5c257b359cc1efb5ce87_Gold 2.aac", false, 75, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\Gold2.aac", false, 75, 1);
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).add(1);
 }
@@ -733,7 +733,7 @@ for(var i = 0, len = gdjs.MainGameCode.GDInstaneceIncorrect_95953Objects1.length
     gdjs.MainGameCode.GDInstaneceIncorrect_95953Objects1[i].deleteFromScene(runtimeScene);
 }
 }
-{gdjs.evtTools.sound.playSound(runtimeScene, "95aef1c1a58062c7bcb3d61bdaa14c87a5032d3332ec5c257b359cc1efb5ce87_Gold 2.aac", false, 75, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\Gold2.aac", false, 75, 1);
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).add(1);
 }
@@ -802,7 +802,7 @@ for(var i = 0, len = gdjs.MainGameCode.GDInstanceCorrect_95953Objects1.length ;i
     gdjs.MainGameCode.GDInstanceCorrect_95953Objects1[i].deleteFromScene(runtimeScene);
 }
 }
-{gdjs.evtTools.sound.playSound(runtimeScene, "483c313c13e5af9aac8770d0f5b22a1b1213b889e7a58756c481604fbffd3830_Blip 2.aac", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\Blip2.aac", false, 100, 1);
 }
 }
 
@@ -865,7 +865,7 @@ for(var i = 0, len = gdjs.MainGameCode.GDInstaneceIncorrect_95953Objects1.length
     gdjs.MainGameCode.GDInstaneceIncorrect_95953Objects1[i].deleteFromScene(runtimeScene);
 }
 }
-{gdjs.evtTools.sound.playSound(runtimeScene, "483c313c13e5af9aac8770d0f5b22a1b1213b889e7a58756c481604fbffd3830_Blip 2.aac", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\Blip2.aac", false, 100, 1);
 }
 }
 
