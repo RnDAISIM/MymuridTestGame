@@ -44,7 +44,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayBtnObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9429396);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9430228);
 }
 }
 if (isConditionTrue_0) {
