@@ -1,54 +1,32 @@
-gdjs.MainMenuCode = {};
-gdjs.MainMenuCode.localVariables = [];
-gdjs.MainMenuCode.idToCallbackMap = new Map();
-gdjs.MainMenuCode.GDBackgroundObjects1= [];
-gdjs.MainMenuCode.GDBackgroundObjects2= [];
-gdjs.MainMenuCode.GDObjectiveObjects1= [];
-gdjs.MainMenuCode.GDObjectiveObjects2= [];
-gdjs.MainMenuCode.GDPlayBtnObjects1= [];
-gdjs.MainMenuCode.GDPlayBtnObjects2= [];
+gdjs.Main_32MenuCode = {};
+gdjs.Main_32MenuCode.localVariables = [];
+gdjs.Main_32MenuCode.idToCallbackMap = new Map();
+gdjs.Main_32MenuCode.GDbackgroundObjects1= [];
+gdjs.Main_32MenuCode.GDbackgroundObjects2= [];
+gdjs.Main_32MenuCode.GDbackgroundObjects3= [];
+gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1= [];
+gdjs.Main_32MenuCode.GDbtn_9595PlayObjects2= [];
+gdjs.Main_32MenuCode.GDbtn_9595PlayObjects3= [];
+gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects1= [];
+gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects2= [];
+gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects3= [];
+gdjs.Main_32MenuCode.GDtext_9595TitleObjects1= [];
+gdjs.Main_32MenuCode.GDtext_9595TitleObjects2= [];
+gdjs.Main_32MenuCode.GDtext_9595TitleObjects3= [];
 
 
-gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayBtnObjects1Objects = Hashtable.newFrom({"PlayBtn": gdjs.MainMenuCode.GDPlayBtnObjects1});
-gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayBtnObjects1Objects = Hashtable.newFrom({"PlayBtn": gdjs.MainMenuCode.GDPlayBtnObjects1});
-gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayBtnObjects1Objects = Hashtable.newFrom({"PlayBtn": gdjs.MainMenuCode.GDPlayBtnObjects1});
-gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayBtnObjects1Objects = Hashtable.newFrom({"PlayBtn": gdjs.MainMenuCode.GDPlayBtnObjects1});
-gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayBtnObjects1Objects = Hashtable.newFrom({"PlayBtn": gdjs.MainMenuCode.GDPlayBtnObjects1});
-gdjs.MainMenuCode.eventsList0 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("PlayBtn"), gdjs.MainMenuCode.GDPlayBtnObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayBtnObjects1Objects, runtimeScene, true, false);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MainGame", false);
-}
-}
-
-}
-
+gdjs.Main_32MenuCode.mapOfGDgdjs_9546Main_959532MenuCode_9546GDbtn_95959595HitboxObjects1Objects = Hashtable.newFrom({"btn_Hitbox": gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects1});
+gdjs.Main_32MenuCode.eventsList0 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("PlayBtn"), gdjs.MainMenuCode.GDPlayBtnObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayBtnObjects1Objects, runtimeScene, true, false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9430228);
-}
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9546364);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\twotoneeffect.aac", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "baeeb718f7142aaca06988016a135804da1068bbc739ea8a568f0faf8cfbe938_Two tone effect.aac", false, 100, 1);
 }
 }
 
@@ -57,37 +35,41 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("PlayBtn"), gdjs.MainMenuCode.GDPlayBtnObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayBtnObjects1Objects, runtimeScene, true, false);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9547220);
+}
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.MainMenuCode.GDPlayBtnObjects1 */
-{for(var i = 0, len = gdjs.MainMenuCode.GDPlayBtnObjects1.length ;i < len;++i) {
-    gdjs.MainMenuCode.GDPlayBtnObjects1[i].getBehavior("Scale").setScale(0.27);
-}
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Game", false);
 }
 }
 
 }
 
+
+};gdjs.Main_32MenuCode.mapOfGDgdjs_9546Main_959532MenuCode_9546GDbtn_95959595HitboxObjects1Objects = Hashtable.newFrom({"btn_Hitbox": gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects1});
+gdjs.Main_32MenuCode.eventsList1 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("PlayBtn"), gdjs.MainMenuCode.GDPlayBtnObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayBtnObjects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-/* Reuse gdjs.MainMenuCode.GDPlayBtnObjects1 */
-{for(var i = 0, len = gdjs.MainMenuCode.GDPlayBtnObjects1.length ;i < len;++i) {
-    gdjs.MainMenuCode.GDPlayBtnObjects1[i].getBehavior("Scale").setScale(0.24);
+gdjs.copyArray(runtimeScene.getObjects("btn_Hitbox"), gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects1);
+gdjs.copyArray(runtimeScene.getObjects("btn_Play"), gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1);
+{for(var i = 0, len = gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1[i].getBehavior("Scale").setScale(0.244);
+}
+}
+{for(var i = 0, len = gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects1.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects1[i].hide();
 }
 }
 }
@@ -97,15 +79,36 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("PlayBtn"), gdjs.MainMenuCode.GDPlayBtnObjects1);
+gdjs.copyArray(runtimeScene.getObjects("btn_Hitbox"), gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.MainMenuCode.mapOfGDgdjs_9546MainMenuCode_9546GDPlayBtnObjects1Objects, runtimeScene, true, true);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Main_32MenuCode.mapOfGDgdjs_9546Main_959532MenuCode_9546GDbtn_95959595HitboxObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
-/* Reuse gdjs.MainMenuCode.GDPlayBtnObjects1 */
-{for(var i = 0, len = gdjs.MainMenuCode.GDPlayBtnObjects1.length ;i < len;++i) {
-    gdjs.MainMenuCode.GDPlayBtnObjects1[i].getBehavior("Scale").setScale(0.27);
+gdjs.copyArray(runtimeScene.getObjects("btn_Play"), gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1);
+{for(var i = 0, len = gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1[i].getBehavior("Scale").setScale(0.2);
+}
+}
+
+{ //Subevents
+gdjs.Main_32MenuCode.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("btn_Hitbox"), gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Main_32MenuCode.mapOfGDgdjs_9546Main_959532MenuCode_9546GDbtn_95959595HitboxObjects1Objects, runtimeScene, true, true);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("btn_Play"), gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1);
+{for(var i = 0, len = gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1.length ;i < len;++i) {
+    gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1[i].getBehavior("Scale").setScale(0.244);
 }
 }
 }
@@ -115,27 +118,39 @@ if (isConditionTrue_0) {
 
 };
 
-gdjs.MainMenuCode.func = function(runtimeScene) {
+gdjs.Main_32MenuCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.MainMenuCode.GDBackgroundObjects1.length = 0;
-gdjs.MainMenuCode.GDBackgroundObjects2.length = 0;
-gdjs.MainMenuCode.GDObjectiveObjects1.length = 0;
-gdjs.MainMenuCode.GDObjectiveObjects2.length = 0;
-gdjs.MainMenuCode.GDPlayBtnObjects1.length = 0;
-gdjs.MainMenuCode.GDPlayBtnObjects2.length = 0;
+gdjs.Main_32MenuCode.GDbackgroundObjects1.length = 0;
+gdjs.Main_32MenuCode.GDbackgroundObjects2.length = 0;
+gdjs.Main_32MenuCode.GDbackgroundObjects3.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595PlayObjects2.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595PlayObjects3.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects1.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects2.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects3.length = 0;
+gdjs.Main_32MenuCode.GDtext_9595TitleObjects1.length = 0;
+gdjs.Main_32MenuCode.GDtext_9595TitleObjects2.length = 0;
+gdjs.Main_32MenuCode.GDtext_9595TitleObjects3.length = 0;
 
-gdjs.MainMenuCode.eventsList0(runtimeScene);
-gdjs.MainMenuCode.GDBackgroundObjects1.length = 0;
-gdjs.MainMenuCode.GDBackgroundObjects2.length = 0;
-gdjs.MainMenuCode.GDObjectiveObjects1.length = 0;
-gdjs.MainMenuCode.GDObjectiveObjects2.length = 0;
-gdjs.MainMenuCode.GDPlayBtnObjects1.length = 0;
-gdjs.MainMenuCode.GDPlayBtnObjects2.length = 0;
+gdjs.Main_32MenuCode.eventsList1(runtimeScene);
+gdjs.Main_32MenuCode.GDbackgroundObjects1.length = 0;
+gdjs.Main_32MenuCode.GDbackgroundObjects2.length = 0;
+gdjs.Main_32MenuCode.GDbackgroundObjects3.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595PlayObjects1.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595PlayObjects2.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595PlayObjects3.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects1.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects2.length = 0;
+gdjs.Main_32MenuCode.GDbtn_9595HitboxObjects3.length = 0;
+gdjs.Main_32MenuCode.GDtext_9595TitleObjects1.length = 0;
+gdjs.Main_32MenuCode.GDtext_9595TitleObjects2.length = 0;
+gdjs.Main_32MenuCode.GDtext_9595TitleObjects3.length = 0;
 
 
 return;
 
 }
 
-gdjs['MainMenuCode'] = gdjs.MainMenuCode;
+gdjs['Main_32MenuCode'] = gdjs.Main_32MenuCode;

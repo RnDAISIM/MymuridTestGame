@@ -1,9 +1,9 @@
 {
-  "name": "Science Drag n Drop",
-  "short_name": "Science Drag n Drop",
+  "name": "Drag and drop",
+  "short_name": "Drag and drop",
   "id": "com.example.gamename",
   "description": "",
-  "orientation": "any",
+  "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "black",
